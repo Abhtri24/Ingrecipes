@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: url('./assests/new.png') no-repeat center center fixed; 
+    background-size: cover; 
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+#h1 {
+    position: absolute;
+    text-decoration: underline;
+    top: 50px;
+    left: 39%;
+    
+    font-size: 3em;
+    color: black;
+}
+
+.menu {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    transform: translateX(-50%);
+    width: max-content;
+}
+
+.menu-item {
+    background: rgba(255, 255, 255, 0.897);
+    color: black;
+    padding: 20px 30px;
+    margin: 20px 0;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition:  0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #808080;
+    transform: scale(1.05);
+}
+
+.menu-item i {
+    font-size: 22px;
+    color: #ffffff;
+}
