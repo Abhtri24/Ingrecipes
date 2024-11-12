@@ -289,17 +289,15 @@ p{
     text-align: center;
 }
 
-.right-section .section-title.filters {
-    background-color: #b06ab3;
-}
+
+
 
 .right-section .item {
     margin: 5px 0;
     color: #fffafa;
 }
 #items .item.highlighted {
-    background-color: hsl(120, 100%, 50%); /* Highlight color (e.g., gold) */
-    color: rgb(0, 0, 0); /* Adjust text color if needed */
-    
+    background-color: hsl(120, 100%, 50%); 
+    color: rgb(0, 0, 0); 
 }
 

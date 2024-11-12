@@ -77,12 +77,7 @@
                     <div id="favourites-list"></div>
                    
                 </div>
-                <div class="section">
-                    <div class="section-title filters">Filters:</div>
-                    <div class="filter">Veg</div>
-                    <div class="filter">Beverages</div>
-                    <div class="filter">Main-Course</div>
-                    <div class="filter">Snacks</div>
+                
                 </div>
             </div>
         </div>
@@ -107,7 +102,6 @@ function searchRecipe() {
         }
     });
 
-    // Optional: Show a message if no matches are found
     if (!anyMatchFound && searchQuery !== "") {
         console.log("No matches found");
     }
@@ -144,20 +138,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const ingredientItems = document.querySelectorAll('.item');
     ingredientItems.forEach(item => {
         item.addEventListener('click', () => {
-            item.classList.toggle('selected'); // Optional: visually highlight selected items
-            toggleIngredient(item.textContent.trim()); // Toggle ingredient selection
+            item.classList.toggle('selected'); 
+            toggleIngredient(item.textContent.trim()); 
         });
     });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Select all ingredient items
+    
     const ingredientItems = document.querySelectorAll('#items .item');
 
-    // Add a click event listener to each item
+    
     ingredientItems.forEach(item => {
         item.addEventListener('click', () => {
-            // Toggle the highlighted class on the clicked item
+            
             item.classList.toggle('highlighted');
         });
     });

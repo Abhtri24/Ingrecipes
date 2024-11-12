@@ -54,7 +54,7 @@
       "id": 7,
       "name": "Mutton Biryani",
       "description": "A rich, traditional Indian dessert made with carrots, milk, and ghee.",
-      "image": "media/gajar-halwa.jpeg",
+      "image": "media/mutton.jpeg",
       "ingredients": ["mutton","rice"],
       "link": "gajarhalwa.html"
   }
